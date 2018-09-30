@@ -1,0 +1,163 @@
+/*-----------------------
+	General Styles start
+-------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.hand {
+	cursor: pointer;
+}
+.touch:hover {
+	color: #da7e8a;
+}
+.change {
+	resize: none;
+}
+.doctors-page-wrapper .avatar,
+.search-doctors-page-wrapper .avatar,
+.user-profile-page-wrapper .avatar {
+	width: 140px;
+	height: 140px;
+}
+.taken {
+	color: #ce4040;
+}
+.page-pose {
+	padding-top: 70px;
+}
+/*---------------------
+	General Styles end
+-----------------------*/
+
+/*---------------------
+	Doctors' list page start
+-----------------------*/
+.doctors-page-wrapper {
+	padding: 35px 0 50px;
+}
+.doctors-page-wrapper .profession {
+	text-decoration: underline;
+}
+.doctors-page-wrapper .search-dropdown {
+	background-color: #e8fb96;
+	width: 340px;
+	top: 100%;
+}
+.doctors-page-wrapper .search-item {
+	padding-left: 5px;
+}
+.doctors-page-wrapper .search-item img {
+	width: 21px;
+	height: 22px;
+}
+/*-------------------------------
+	Login/Register/Reset page start
+----------------------------------*/
+.login-page-wrapper,
+.register-page-wrapper,
+.request-password-page-wrapper,
+.reset-page-wrapper,
+.user-profile-update-wrapper {
+	min-height: 100vh;	
+	background: url("/images/laptop.jpg") no-repeat top center fixed;
+	background-size: cover;
+	padding: 45px;
+	padding-top: 80px;	
+}
+
+/*--------------------
+	Select page start
+----------------------*/
+.select-page-wrapper {
+	padding-top: 90px;
+}
+.select-page-wrapper .confirm-button,
+.select-page-wrapper .cancel-button {
+	width: 160px;
+}
+
+/*----------------------
+	Dayslist page start
+------------------------*/
+.dayslist-page-wrapper .date a {
+	width: 120px;
+	height: 120px;
+	padding: 23px 16px;
+	border: 3px solid black;
+}
+
+.dayslist-page-wrapper .doctor {
+	clear: right;
+	padding-top: 40px;
+}
+.dayslist-page-wrapper .make-appointment {
+	display: none;
+}
+/*-------------------------
+	Appointsbook page start
+---------------------------*/
+.appointsbook-page-wrapper {
+	padding: 70px;
+}
+.appointsbook-page-wrapper .appoint-sign {
+	font-size: 28px;
+	color: yellow;
+}
+.appointsbook-page-wrapper .appoint-block:hover {
+	background-color: #ece4e4;
+}
+.appointsbook-page-wrapper .closed {
+	display: none;
+}
+
+/*-----------------------------
+	Confirmedappoint page start
+-------------------------------*/
+.confirmed-appoint-page-wrapper .back-doctors {
+	border-radius: 20px;
+}
+
+/*----------------------------------------
+	Doctorprofile/Patienprofile page start
+-----------------------------------------*/
+.user-profile-page-wrapper {
+	padding-top: 120px;
+}
+.user-profile-page-wrapper .profile-nav, 
+.patient-profile-page-wrapper .profile-nav {
+	list-style-type: initial;
+}
+.user-profile-update-wrapper .input-pose{
+	margin-left: 12px;
+}
+
+/*----------------------
+	Create schedule
+-------------------------*/
+.create-schedule {
+	padding-top: 90px;
+}
+
+/*----------------------
+	Search Doctors
+-------------------------*/
+.search-doctors-page-wrapper {
+	padding-top: 120px;
+}
+
+
